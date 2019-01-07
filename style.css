@@ -1,0 +1,106 @@
+body{
+    height: 100%;
+    background-image: url(https://html5up.net/uploads/demos/identity/assets/css/images/overlay.png),
+    url(./compass_map_travel_118190_1920x1080.jpg);
+    margin: 0%;
+    background-repeat: repeat, no-repeat, no-repeate;
+    background-size: 100px 100px,cover, cover;
+    background-position: top left, center center, bottom center;
+    background-attachment :fixed, fixed, fixed;
+
+} 
+
+#main{
+    width: 200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.avatar img{
+    border-radius: 99%;
+    widows: 70%;
+    height: 70%;
+}
+#main h1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+ul {
+    padding: 0;
+}
+ul li{
+    display: inline-block
+}
+.fa{
+    padding: 11px;
+    border: 1px solid lightgray;
+    border-radius: 99%;
+    width: 14px;
+    height: 14px;
+    color: lightgray;
+    line-height: 15px;
+}
+.fa-facebook-official:hover{
+  background:#3b5999;
+  color: white;
+  transform: rotate(360deg);
+  transition: ease-in 0.8s all;
+}
+.fa-twitter:hover{
+    background:#55acee;
+    color: white;
+    transform: rotate(360deg);
+    transition: ease-in 0.8s all;
+  }
+.fa-instagram:hover{
+    background:#e4405f;
+    color: white;
+    transform: rotate(360deg);
+    transition: ease-in 0.8s all;
+    
+  }
+  .logo{
+      width: 20%;
+      float: left;
+      height: 60px;
+  }
+  .menu{
+      height: 60px;
+      text-align: right;
+      line-height: 50px;
+  }
+  nav a {
+font-size: 20px;
+padding: 0px 20px 0 20px;
+text-decoration: none;
+color: #111;
+text-shadow: 1px 1px 1px #eee;
+text-transform: uppercase;
+font-weight: bold;
+  }
+  nav a:hover{
+      border-bottom: 2px solid #111;
+      /*background: linear-gradient(to right ,red ,black);*/
+      transform: skewX(20ged);
+      transition: ease-in 0.8s all;
+      /*color: #fff;*/
+      padding: 10px;
+      
+  }
+  #logomenu{
+      margin: 0 0 30px 0;
+      height: 50px;
+      background: #fff;
+      padding: 20px;
+      opacity: 0.9;
+  }
+  .logo img {
+   width: 100px;
+   height: 50px;
+  }

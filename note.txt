@@ -1,0 +1,13 @@
+git for windows
+go to cmd 
+git --version
+cd desktop html dir
+git init
+git config --global user.name "abhinav"
+git config --global user.email "abhinav@gamil.com"
+git add */. 
+git commit -m "this is my first commit"
+git branch 
+git branch <branch_name>
+github.com
+
